@@ -1,7 +1,5 @@
 import React from "react";
 import { AiFillGithub } from "react-icons/ai";
-import CodersRankActivity from '@codersrank/activity';
-window.customElements.define('codersrank-activity', CodersRankActivity);
 
 const projects = [
   {
@@ -57,7 +55,6 @@ const Portfolio = () => {
           </div>
         ))}
       </div>
-      <codersrank-activity username="sigfigs" branding="false" labels legend tooltip></codersrank-activity>
     </div>
   );
 };

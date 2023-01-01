@@ -1,6 +1,8 @@
 import React from "react";
 import CodersRankSkillsChart from "@codersrank/skills-chart";
+import CodersRankActivity from '@codersrank/activity';
 window.customElements.define("codersrank-skills-chart", CodersRankSkillsChart);
+window.customElements.define('codersrank-activity', CodersRankActivity);
 
 const About = () => {
   return (
@@ -38,6 +40,7 @@ const About = () => {
         branding="false"
         svg-height ="220"
       ></codersrank-skills-chart>
+      <codersrank-activity username="sigfigs" branding="false" svg-width="1000" labels legend tooltip></codersrank-activity>
     </div>
   );
 };

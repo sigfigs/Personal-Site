@@ -7,7 +7,7 @@ import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
-    <div className="bg-[var(--color-bg)] pb-8 lg:px-16 md:px-12 px-6">
+    <div className="bg-[var(--color-bg)] pb-8 lg:px-16 md:px-12 px-4">
       <Header />
       <About/>
       <Portfolio/>
