@@ -4,14 +4,15 @@ import About from "./components/About.jsx";
 import Skills from "./components/Skills.jsx";
 import Portfolio from "./components/Portfolio.jsx";
 import Footer from "./components/Footer.jsx";
+import Particle from "./components/Particle.jsx";
 
 function App() {
   return (
-    <div className="bg-[var(--color-bg)] pb-8 lg:px-16 md:px-12 px-4">
+    <div className="">
       <Header />
-      <About/>
-      <Portfolio/>
-      <Footer/>
+      {/* <About /> */}
+      <Portfolio />
+      <Footer />
     </div>
   );
 }

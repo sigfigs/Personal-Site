@@ -50,7 +50,6 @@ codersrank-skills-chart {
    --legend-text-color: rgb(75, 74, 74);
  }
 
- codersrank-activity {
-   margin-top:100px;
-   --bg-color-0:#d5d9e0;
- }
+ #tsparticles{
+   height:100% 
+}
