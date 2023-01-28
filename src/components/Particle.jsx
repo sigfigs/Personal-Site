@@ -65,13 +65,13 @@ function Particle(){
               default: "bounce",
             },
             random: false,
-            speed: 2,
+            speed: 1,
             straight: false,
           },
           number: {
             density: {
               enable: true,
-              area: 900,
+              area: 1000,
             },
             value: 70,
           },
@@ -82,7 +82,7 @@ function Particle(){
             type: "circle",
           },
           size: {
-            value: { min: 1, max: 5 },
+            value: { min: 2, max: 7 },
           },
         },
         detectRetina: true,
