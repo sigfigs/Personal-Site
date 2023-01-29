@@ -1,9 +1,10 @@
 import {
   AiOutlineInstagram,
-  AiFillLinkedin,
   AiOutlineFacebook,
   AiOutlineLinkedin,
   AiOutlineGithub,
+  AiOutlineMail,
+  AiOutlineDown
 } from "react-icons/ai";
 import { HiOutlineMail, HiOutlineDocumentDownload } from "react-icons/hi";
 import { Typewriter } from "react-simple-typewriter";
@@ -29,8 +30,14 @@ const Header = () => {
             />
             <div className="mt-5 flex justify-center gap-5">
               {socials.map(social => (
-                <div className="text-gray-400 text-2xl hover:text-gray-500 transition-all">
+                <div>
+                <a href={social.link} target="_blank" className="text-gray-400 text-2xl hover:text-gray-500 transition-all">
                   {social.icon}
+                </a>
+
+                {/* <div>
+                  <AiOutlineDown className="text-gray-400 ml-1 hover:translate-y-3"/>
+                  </div> */}
                 </div>
               ))}
             </div>
@@ -42,20 +49,28 @@ const Header = () => {
 
 const socials = [
   {
-    icon: <AiOutlineInstagram />,
-    text: "Instagram",
+    icon: <AiOutlineMail/>,
+    text: "Email",
+    link: "mailto:jeffreyli8000@gmail.com",
   },
   {
-    icon: <AiOutlineFacebook />,
-    text: "Facebook",
+    icon: <AiOutlineInstagram />,
+    text: "Instagram",
+    link: "https://www.instagram.com/jefffrey.li/",
   },
+  // {
+  //   icon: <AiOutlineFacebook />,
+  //   text: "Facebook",
+  // },
   {
     icon: <AiOutlineGithub />,
     text: "Github",
+    link: "https://github.com/sigfigs"
   },
   {
     icon: <AiOutlineLinkedin />,
     text: "Linkedin",
+    link: "https://www.linkedin.com/in/jeffrey-li-bb0577225/"
   },
   {
     icon: <HiOutlineDocumentDownload />,
@@ -65,11 +80,11 @@ const socials = [
 
 const phrases = [
   "hello :)",
+  "welcome to the site!",
   "a Software Developer",
   "NYC",
   "a twin bro",
   "MIT '27",
-  "welcome to the site!",
 ];
 
 export default Header;
