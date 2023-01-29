@@ -38,10 +38,6 @@ a{
    transition: all 400ms ease;
 }
 
-a:hover{
-   color:white;
-}
-
 codersrank-skills-chart {
    --legend-font-size: 12px;
    --chart-border-radius: 10px;

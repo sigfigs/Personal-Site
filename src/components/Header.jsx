@@ -5,9 +5,7 @@ import {
   AiOutlineLinkedin,
   AiOutlineGithub,
 } from "react-icons/ai";
-import { RxDiscordLogo } from "react-icons/rx";
 import { HiOutlineMail, HiOutlineDocumentDownload } from "react-icons/hi";
-import { RiLinkedinBoxLine } from "react-icons/ri";
 import { Typewriter } from "react-simple-typewriter";
 import Particle from "./Particle.jsx";
 
