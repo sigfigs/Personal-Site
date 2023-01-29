@@ -12,6 +12,7 @@ const Portfolio = () => {
             <a href={project.link} target="_blank" rel="noreferrer">
               <img className="" src={project.imageURL} alt="" />
             </a>
+            <hr className=""></hr>
             <div>
               <h1 className="text-black m-4">{project.title}</h1>
             </div>
@@ -38,7 +39,7 @@ const projects = [
   {
     title: "School Club App",
     imageURL:
-      fillerImage,
+      "/assets/projects/bxsci clubs logo.png",
     body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     icon:  <AiFillGithub />,
     langs: "Flutter, Dart, PostgreSQL"
