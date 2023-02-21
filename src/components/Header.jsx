@@ -1,12 +1,10 @@
 import {
   AiOutlineInstagram,
-  AiOutlineFacebook,
   AiOutlineLinkedin,
   AiOutlineGithub,
   AiOutlineMail,
-  AiOutlineDown
 } from "react-icons/ai";
-import { HiOutlineMail, HiOutlineDocumentDownload } from "react-icons/hi";
+import {HiOutlineDocumentDownload } from "react-icons/hi";
 import { Typewriter } from "react-simple-typewriter";
 import Particle from "./Particle.jsx";
 
@@ -35,9 +33,6 @@ const Header = () => {
                   {social.icon}
                 </a>
 
-                {/* <div>
-                  <AiOutlineDown className="text-gray-400 ml-1 hover:translate-y-3"/>
-                  </div> */}
                 </div>
               ))}
             </div>
@@ -58,10 +53,6 @@ const socials = [
     text: "Instagram",
     link: "https://www.instagram.com/jefffrey.li/",
   },
-  // {
-  //   icon: <AiOutlineFacebook />,
-  //   text: "Facebook",
-  // },
   {
     icon: <AiOutlineGithub />,
     text: "Github",
